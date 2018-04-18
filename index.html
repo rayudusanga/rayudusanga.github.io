@@ -85,7 +85,7 @@ function loadXrp() {
   };
   
   xhttp.open("GET", "https://crossorigin.me/https://www.zebapi.com/api/v1/market/ticker-new/xrp/inr", true);
-  //xhttp.setRequestHeader("Origin","https://rayudusanga.github.io");
+  xhttp.setRequestHeader("Origin","https://rayudusanga.github.io");
   xhttp.responseType = 'json';
   xhttp.send();  
  
@@ -108,7 +108,7 @@ function loadBtc() {
   };
   
   xhttp.open("GET", "https://crossorigin.me/https://www.zebapi.com/api/v1/market/ticker-new/btc/inr", true);
-  //xhttp.setRequestHeader("Origin","https://rayudusanga.github.io");
+  xhttp.setRequestHeader("Origin","https://rayudusanga.github.io");
   xhttp.responseType = 'json';
   xhttp.send();
 }
@@ -127,7 +127,7 @@ function loadLtc() {
   };
   
   xhttp.open("GET", "https://crossorigin.me/https://www.zebapi.com/api/v1/market/ticker-new/ltc/inr", true);
-  //xhttp.setRequestHeader("Origin","https://rayudusanga.github.io");
+  xhttp.setRequestHeader("Origin","https://rayudusanga.github.io");
   xhttp.responseType = 'json';
   xhttp.send();
 }
